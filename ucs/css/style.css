@@ -3,8 +3,8 @@ body {
     background-color: gainsboro;
 }
 .container {
-    width: 1000px;
-    height: auto;
+    max-width: 1000px;
+    max-height: auto;
     background-color: white;
     margin: auto;
 }
@@ -178,4 +178,8 @@ address p{
 }
 .copy p {
     margin: 0px;
+}
+
+.content  img {
+    width: 100%;
 }
